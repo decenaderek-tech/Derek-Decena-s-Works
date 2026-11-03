@@ -1,0 +1,194 @@
+body {
+    background-image: url("thumb-1920-1122016.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Courier New', Courier, monospace;
+    color: navy;
+}
+
+h3 {
+    margin-right: 100px;
+}
+nav ul {
+    background:radial-gradient(circle, white, lightblue);
+    border: 2px outset teal;
+    height: 100px;
+    width: 1211px;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+
+ul {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+a {
+    color: navy;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: gray;
+}
+
+.bigbox  {
+    background:radial-gradient(circle, white, lightblue);
+    border: 2px outset teal;
+    height: 500px;
+    width: 1000px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftbox {
+    background-color: white;
+    border: 2px outset teal;
+    border-radius: 20px;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.fullname {
+    font-weight: bold;
+}
+
+.rightbox {
+    background-color: white;
+    border: 2px outset teal;
+    border-radius: 20px;
+    height: 400px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#intro {
+    text-align: start;
+    margin-left: 120px;
+}
+
+.change {
+    color: navy;
+    background-color: skyblue;
+    width: 60px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 280px;
+}
+
+.learnmorebtn {
+    background-color: teal;
+    margin-top: 20px;
+}
+
+.bigbox2  {
+    background:radial-gradient(circle, white, lightblue);
+    border: 2px outset teal;
+    height: 500px;
+    width: 1000px;
+    border-radius: 20px;
+    padding-top: 10px;
+    margin-top: 40px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+#meinfo {
+    text-align: start;
+    margin-left: 120px;
+}
+
+.changetwo {
+    color: navy;
+    background-color: skyblue;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.buttonplt {
+     background:radial-gradient(circle, white, lightblue);
+    border: 2px outset teal;
+    height: 100px;
+    width: 1000px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    margin-left: 200px;
+}
+
+.changethree {
+    color: navy;
+    background-color: skyblue;
+    height: 33px;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.changefour {
+    color: navy;
+    background-color: skyblue;
+    height: 33px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.bigboxC  {
+    background:radial-gradient(circle, white, lightblue);
+    border: 2px outset teal;
+    height: 500px;
+    width: 1000px;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 40px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.bigboxCtwo  {
+    background:radial-gradient(circle, white, lightblue);
+    border: 2px outset teal;
+    height: 3500px;
+    width: 1000px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
