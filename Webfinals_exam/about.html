@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><h3>Derek's Online Portfolio</h3></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+            <li><a href="others.html">Others</a></li>
+        </ul>
+    </nav>
+
+    <div class="bigbox2">
+         <h3 id="meinfo">
+            • PERSONAL INFO<br>
+            <br>
+              Age: 19<br>
+              Birthday: April 21, 2007<br>
+              Height: 5 '1<br>
+              Weight: 45.8kg<br>
+              Address: Purrok Narra, Isabang, Lucena City, Philippines<br>
+            <hr>
+            • PREFFERED SKILLS<br>
+            <br>
+              - HTML<br>
+              - CSS<br>
+              - Digital Designing in Figma and Penpot<br>
+              
+         </h3>
+    </div>
+    <div class="buttonplt">
+        <button class="changetwo" onclick="changeText()">Education</button>
+        <button class="changethree" onclick="changeToOption1()">Excellence and Hobbies</button>
+        <button class="changefour" onclick="changeToOption2()">Work Experience and Completed Projects</button>
+    </div>
+
+    <nav>
+        <ul>
+            <li>decenaderek@gmail.com</li>
+            <li>Designed and developed by Derek M. Decena</li>
+        </ul>
+    </nav>
+
+     <script>
+        function changeText() {
+            document.getElementById("meinfo").innerHTML = `
+            <h3>
+             Educational attainment: College Undergraduate<br>
+             School: College of Sciences, Technology and Communications, Inc<br>
+             Course: Bachelor of Science in Information Technology<br>
+             Address: Arellano Subdivision, Brgy. 1, Sariaya, Quezon, Philippines<br>
+             Year Graduated or Ongoing: Ongoing<br>
+            </h3>
+             `;
+        }
+
+        function changeToOption1() {
+            document.getElementById("meinfo").innerHTML = `
+            <h3>
+                EXCELLENCE/AWARD ACADEMIC OR NON ACADS<br>
+                <br>
+                Awards in Academics: N/A<br>
+                Awards in Non-Academics: N/A<br>
+                <hr>
+                HOBBIES<br>
+                <br>
+                - Watching Anime<br>
+                - Video Games<br>
+                - Walking Around<br>
+                - Listening to music<br>
+            </h3>
+            `;
+        }
+
+        function changeToOption2() {
+            document.getElementById("meinfo").innerHTML = `
+            <h3>
+                Work Experience<br>
+                <br>
+                Work Experience: N/A<br>
+                <hr>
+                Projects Accomplished<br>
+                <br>
+                Projects Accomplished: N/A<br>
+            </h3>
+            `;
+        }
+    </script>
+</body>
+</html>

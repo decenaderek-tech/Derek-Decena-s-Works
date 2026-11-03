@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><h3>Derek's Online Portfolio</h3></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+            <li><a href="others.html">Others</a></li>
+        </ul>
+    </nav>
+    <div class="bigbox">
+        <div class="leftbox">
+            <img src="profilepic.jpg" alt="profile_pic" style="height:200px; width:200px; margin-left:45px; margin-bottom:20px; margin-top:10px; border-radius:100%;">
+            <h4 class="fullname">
+                DEREK M. DECENA<br>
+                <br>
+                Aspiring web Developer
+            </h4>
+        </div>
+        <div class="rightbox">
+            <h3 id="intro">
+                Welcome to my Online Portfolio!
+            </h3>
+            <button class="change" onclick="changeText()">Brief intro</button>
+        </div>
+    </div>
+
+     <nav>
+        <ul>
+            <li>decenaderek@gmail.com</li>
+            <li>Designed and developed by Derek M. Decena</li>
+        </ul>
+     </nav>
+    <script>
+        function changeText() {
+            document.getElementById("intro").innerHTML = `
+            <h2>About Me</h2>
+            <p>Hello and good morning, afternoon, or evening!</p>
+            <p> I'm Derek M. Decena, an aspiring Full Stack Web Developer,<br> who builds small to big projects.</p>
+            <p>I am a fresh graduate, and i hope to get real work experiences, to improve and deliver.</p>
+            <a class="learnmorebtn" href="about.html">Learn More?</a>
+            `;
+        }
+    </script>
+</body>
+</html>
